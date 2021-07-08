@@ -1,23 +1,34 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigHub", "GigHub\GigHub.csproj", "{C957D49F-8DFD-4DC2-A31A-110F519E9B37}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gig", "Gig\Gig.csproj", "{86FD562D-D9EC-48A5-8DC6-BE5C33FC21AD}"
 EndProject
 Global
-
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C957D49F-8DFD-4DC2-A31A-110F519E9B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C957D49F-8DFD-4DC2-A31A-110F519E9B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C957D49F-8DFD-4DC2-A31A-110F519E9B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C957D49F-8DFD-4DC2-A31A-110F519E9B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86FD562D-D9EC-48A5-8DC6-BE5C33FC21AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86FD562D-D9EC-48A5-8DC6-BE5C33FC21AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86FD562D-D9EC-48A5-8DC6-BE5C33FC21AD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{86FD562D-D9EC-48A5-8DC6-BE5C33FC21AD}.Debug|x64.Build.0 = Debug|Any CPU
+		{86FD562D-D9EC-48A5-8DC6-BE5C33FC21AD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{86FD562D-D9EC-48A5-8DC6-BE5C33FC21AD}.Debug|x86.Build.0 = Debug|Any CPU
+		{86FD562D-D9EC-48A5-8DC6-BE5C33FC21AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86FD562D-D9EC-48A5-8DC6-BE5C33FC21AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86FD562D-D9EC-48A5-8DC6-BE5C33FC21AD}.Release|x64.ActiveCfg = Release|Any CPU
+		{86FD562D-D9EC-48A5-8DC6-BE5C33FC21AD}.Release|x64.Build.0 = Release|Any CPU
+		{86FD562D-D9EC-48A5-8DC6-BE5C33FC21AD}.Release|x86.ActiveCfg = Release|Any CPU
+		{86FD562D-D9EC-48A5-8DC6-BE5C33FC21AD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
