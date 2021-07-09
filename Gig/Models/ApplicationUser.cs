@@ -4,10 +4,6 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Gig.Models
 {
-    public class IdentityModels
-    {
-        
-    }
 
     public class ApplicationUser : IdentityUser
     {
