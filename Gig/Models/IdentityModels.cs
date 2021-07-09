@@ -11,11 +11,11 @@ namespace Gig.Models
 
     public class ApplicationUser : IdentityUser
     {
-        public async Task<ClaimsIdentity> GenerateUserIdentity()
+            
+        public async Task<IdentityResult> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {
-            var userIdentity = await GenerateUserIdentity();
+            var userIdentity = await manager.CreateAsync(this);
             return userIdentity;
-
         }
     }
 }
