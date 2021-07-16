@@ -86,6 +86,8 @@ namespace GigHub.Data.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(255)
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
@@ -109,6 +111,8 @@ namespace GigHub.Data.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Venue")
+                        .IsRequired()
+                        .HasMaxLength(255)
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
