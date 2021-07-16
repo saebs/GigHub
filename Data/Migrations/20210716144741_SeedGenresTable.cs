@@ -18,7 +18,7 @@ namespace GigHub.Data.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.Sql("DELETE * FROM Genres");
+            migrationBuilder.Sql("DELETE FROM Genres WHERE ID > 0");
         }
     }
 }
