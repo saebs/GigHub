@@ -58,8 +58,6 @@ msbuild.wrn
 project.lock.json
 project.assets.json
 
-gighub.db-shm
-gighub.db-wal
-/db/*.sqlite3
-
-
+/app.db
+/app.db-shm
+/app.db-wal
