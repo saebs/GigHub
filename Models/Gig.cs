@@ -7,7 +7,7 @@ namespace GigHub.Models
     {
         public int Id { get; set; }
         
-        [Required]
+        // [Required]
         public ApplicationUser Artist { get; set; }
         
         public DateTime Date { get; set; }
