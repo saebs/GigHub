@@ -23,9 +23,9 @@
         @Html.TextBoxFor(g => g.Time, new { @class = "form-control"})
     </div>
     <div class="form-group">
-        @Html.LabelFor(g => g.Genre)
+        @Html.LabelFor(g => g.GenreId)
         
-        @Html.DropDownListFor(g => g.Genre, new SelectList(Model.Genres, "Id", "Name"), "", new {@class = "form-control"} )
+        @Html.DropDownListFor(g => g.GenreId, new SelectList(Model.Genres, "Id", "Name"), "", new {@class = "form-control"} )
     </div>
     <button type="submit"  class="btn btn-primary">Save</button>
     
